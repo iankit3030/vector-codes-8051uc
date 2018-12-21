@@ -1,0 +1,16 @@
+	#include<reg51.h>
+	#include"delay.h"
+	#include"lcd8bit.h"
+	#include<stdio.h>
+	main()
+	{
+	 lcd_init();
+	 lcd_string("vector");
+	 lcd_cmd(0xC0);
+	 lcd_string("institute");
+	 //lcd_data('A');
+	 //lcd_data('B');
+	 //lcd_cmd(0xC0);
+	 //lcd_data('C');
+	 //while(1);
+	}
